@@ -8,9 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="NationalInstruments.DAQmx">
-      <HintPath>C:\Program Files (x86)\National Instruments\MeasurementStudioVS2010\DotNET\Assemblies\Current\NationalInstruments.DAQmx.dll</HintPath>
+    <Reference Include="NationalInstruments.DAQmx, Version=25.0.40.49523, Culture=neutral">
+      <HintPath>C:\Program Files (x86)\National Instruments\MeasurementStudioVS2010\DotNET\Assemblies\25.0.40.49523\NationalInstruments.DAQmx.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Common">
+      <HintPath>C:\Program Files (x86)\National Instruments\Measurement Studio\DotNET\v4.0\AnyCPU\NationalInstruments.Common 19.1.40\NationalInstruments.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
+
+
 
 </Project>

@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v8.0": {
       "ProjetoTeste/1.0.0": {
         "dependencies": {
+          "NationalInstruments.Common": "19.1.40.49152",
           "NationalInstruments.DAQmx": "25.0.40.49523"
         },
         "runtime": {
           "ProjetoTeste.dll": {}
+        }
+      },
+      "NationalInstruments.Common/19.1.40.49152": {
+        "runtime": {
+          "NationalInstruments.Common.dll": {
+            "assemblyVersion": "19.1.40.49152",
+            "fileVersion": "19.1.40.49152"
+          }
         }
       },
       "NationalInstruments.DAQmx/25.0.40.49523": {
@@ -27,6 +36,11 @@
   "libraries": {
     "ProjetoTeste/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.Common/19.1.40.49152": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

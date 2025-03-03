@@ -16,3 +16,6 @@ C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\Projet
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\bin\Debug\net8.0\NationalInstruments.DAQmx.xml
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0\ProjetoTeste.csproj.AssemblyReference.cache
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0\ProjetoT.A3ECDE26.Up2Date
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0\ProjetoTeste.sourcelink.json
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\bin\Debug\net8.0\NationalInstruments.Common.dll
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\bin\Debug\net8.0\NationalInstruments.Common.xml
