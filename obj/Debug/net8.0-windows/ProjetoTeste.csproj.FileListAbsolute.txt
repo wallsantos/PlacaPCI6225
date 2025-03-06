@@ -1,0 +1,6 @@
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0-windows\ProjetoTeste.csproj.AssemblyReference.cache
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0-windows\ProjetoTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0-windows\ProjetoTeste.AssemblyInfoInputs.cache
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0-windows\ProjetoTeste.AssemblyInfo.cs
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0-windows\ProjetoTeste.csproj.CoreCompileInputs.cache
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\obj\Debug\net8.0-windows\ProjetoTeste.sourcelink.json

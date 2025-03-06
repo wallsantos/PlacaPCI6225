@@ -1,21 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>false</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="NationalInstruments.DAQmx, Version=25.0.40.49523, Culture=neutral">
-      <HintPath>C:\Program Files (x86)\National Instruments\MeasurementStudioVS2010\DotNET\Assemblies\25.0.40.49523\NationalInstruments.DAQmx.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\National Instruments\MeasurementStudioVS2010\DotNET\Assemblies (64-bit)\25.0.40.49523\NationalInstruments.DAQmx.dll</HintPath>
     </Reference>
+    <PackageReference Include="OpenTK" Version="4.0.0" />
     <Reference Include="NationalInstruments.Common">
       <HintPath>C:\Program Files (x86)\National Instruments\Measurement Studio\DotNET\v4.0\AnyCPU\NationalInstruments.Common 19.1.40\NationalInstruments.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
 
-
-
+  <ItemGroup>
+    <PackageReference Include="LiveChartsCore" Version="2.0.0-rc5.4" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView" Version="2.0.0-rc5.4" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WinForms" Version="2.0.0-rc5.4" />
+    <PackageReference Include="SkiaSharp" Version="3.116.1" />
+  </ItemGroup>
 </Project>
