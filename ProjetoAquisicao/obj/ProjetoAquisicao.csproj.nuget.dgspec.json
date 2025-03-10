@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\walla\\Desktop\\All\\Estudos\\EstudosOFF_Facu\\Projeto Fabiano Paixao\\ProjetoTeste\\ProjetoAquisicao\\ProjetoAquisicao.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\walla\\Desktop\\All\\Estudos\\EstudosOFF_Facu\\Projeto Fabiano Paixao\\ProjetoTeste\\ProjetoAquisicao\\ProjetoAquisicao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\walla\\Desktop\\All\\Estudos\\EstudosOFF_Facu\\Projeto Fabiano Paixao\\ProjetoTeste\\ProjetoAquisicao\\ProjetoAquisicao.csproj",
+        "projectName": "ProjetoAquisicao",
+        "projectPath": "C:\\Users\\walla\\Desktop\\All\\Estudos\\EstudosOFF_Facu\\Projeto Fabiano Paixao\\ProjetoTeste\\ProjetoAquisicao\\ProjetoAquisicao.csproj",
+        "packagesPath": "C:\\Users\\walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\walla\\Desktop\\All\\Estudos\\EstudosOFF_Facu\\Projeto Fabiano Paixao\\ProjetoTeste\\ProjetoAquisicao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\walla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "LiveCharts.WinForms": {
+              "target": "Package",
+              "version": "[0.9.7.1, )"
+            },
+            "LiveChartsCore.SkiaSharpView": {
+              "target": "Package",
+              "version": "[2.0.0-rc5.4, )"
+            },
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc5.4, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[3.116.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
