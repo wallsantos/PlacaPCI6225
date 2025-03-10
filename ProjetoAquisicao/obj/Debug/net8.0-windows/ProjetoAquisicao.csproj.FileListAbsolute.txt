@@ -1,8 +1,3 @@
-C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao.csproj.AssemblyReference.cache
-C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao_MarkupCompile.cache
-C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao_MarkupCompile.lref
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\bin\Debug\net8.0-windows\ProjetoAquisicao.exe
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\bin\Debug\net8.0-windows\ProjetoAquisicao.deps.json
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\bin\Debug\net8.0-windows\ProjetoAquisicao.runtimeconfig.json
@@ -29,7 +24,11 @@ C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\Projet
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao.csproj.AssemblyReference.cache
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao_MarkupCompile.cache
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao.g.resources
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\walla\Desktop\All\Estudos\EstudosOFF_Facu\Projeto Fabiano Paixao\ProjetoTeste\ProjetoAquisicao\obj\Debug\net8.0-windows\ProjetoAquisicao.AssemblyInfoInputs.cache

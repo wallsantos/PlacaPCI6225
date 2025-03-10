@@ -1,29 +1,50 @@
 ﻿<Window x:Class="ProjetoAquisicao.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ProjetoAquisicao"
         xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
-        mc:Ignorable="d"
-        Title="Aquisicao de Dados" Height="450" Width="800">
-    <Grid>
-        <!-- Controles para selecionar os canais-->
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <TextBlock Text="Selecione os canais:" Margin="10"/>
-            <CheckBox Content="Canal 1" Name="Canal1CheckBox" Margin="10"/>
-            <CheckBox Content="Canal 2" Name="Canal2CheckBox" Margin="10"/>
-            <CheckBox Content="Canal 3" Name="Canal3CheckBox" Margin="10"/>
-            <CheckBox Content="Canal 4" Name="Canal4CheckBox" Margin="10"/>
-            <CheckBox Content="Canal 5" Name="Canal5CheckBox" Margin="10"/>
-            <CheckBox Content="Canal 6" Name="Canal6CheckBox" Margin="10"/>
-            <Button Content="Atualizar Gráfico" Click="Atualizarbutton_Click" Margin="10"/>
+        Title="Projeto Aquisição" Height="800" Width="600">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+
+            <!-- Checkboxes para ativar os gráficos -->
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <CheckBox x:Name="Canal1CheckBox" Content="Canal 1" Checked="Atualizarbutton_Click" Unchecked="Atualizarbutton_Click"/>
+                <CheckBox x:Name="Canal2CheckBox" Content="Canal 2" Checked="Atualizarbutton_Click" Unchecked="Atualizarbutton_Click"/>
+                <CheckBox x:Name="Canal3CheckBox" Content="Canal 3" Checked="Atualizarbutton_Click" Unchecked="Atualizarbutton_Click"/>
+                <CheckBox x:Name="Canal4CheckBox" Content="Canal 4" Checked="Atualizarbutton_Click" Unchecked="Atualizarbutton_Click"/>
+                <CheckBox x:Name="Canal5CheckBox" Content="Canal 5" Checked="Atualizarbutton_Click" Unchecked="Atualizarbutton_Click"/>
+                <CheckBox x:Name="Canal6CheckBox" Content="Canal 6" Checked="Atualizarbutton_Click" Unchecked="Atualizarbutton_Click"/>
+            </StackPanel>
+
+            <!-- Botão de Atualizar -->
+            <Button Content="Atualizar Gráficos" Click="Atualizarbutton_Click" Margin="10"/>
+
+            <!-- Gráficos com borda e separação -->
+            <Border BorderThickness="1" BorderBrush="Black" Padding="5" Margin="5" Visibility="{Binding Canal1Visivel}">
+                <lvc:CartesianChart Series="{Binding SeriesCanal1}" Width="500" Height="200"/>
+            </Border>
+            
+            <Border BorderThickness="1" BorderBrush="Black" Padding="5" Margin="5" Visibility="{Binding Canal2Visivel}">
+                <lvc:CartesianChart Series="{Binding SeriesCanal2}" Width="500" Height="200"/>
+            </Border>
+
+            <Border BorderThickness="1" BorderBrush="Black" Padding="5" Margin="5" Visibility="{Binding Canal3Visivel}">
+                <lvc:CartesianChart Series="{Binding SeriesCanal3}" Width="500" Height="200"/>
+            </Border>
+
+            <Border BorderThickness="1" BorderBrush="Black" Padding="5" Margin="5" Visibility="{Binding Canal4Visivel}">
+                <lvc:CartesianChart Series="{Binding SeriesCanal4}" Width="500" Height="200"/>
+            </Border>
+
+            <Border BorderThickness="1" BorderBrush="Black" Padding="5" Margin="5" Visibility="{Binding Canal5Visivel}">
+                <lvc:CartesianChart Series="{Binding SeriesCanal5}" Width="500" Height="200"/>
+            </Border>
+
+            <Border BorderThickness="1" BorderBrush="Black" Padding="5" Margin="5" Visibility="{Binding Canal6Visivel}">
+                <lvc:CartesianChart Series="{Binding SeriesCanal6}" Width="500" Height="200"/>
+            </Border>
+
         </StackPanel>
-        <!--Grafico onde os dados serao exibidos-->
-        <lvc:CartesianChart Name="chart" Width="600" Height="300"
-                              HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,50,10,10"
-                              Series="{Binding Series}"
-                              XAxes="{Binding XAxes}"
-                              LegendPosition="Right"/>
-    </Grid>
+    </ScrollViewer>
 </Window>
